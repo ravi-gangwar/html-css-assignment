@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: fit-content;
+    width: 95vw;
+    color: white;
+    background-color: #282541;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 5vh;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+    align-items: center;
+}
+nav div {
+    object-fit: cover;
+}
+nav img {
+    height: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+}
+.setup-div{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave-hand{
+    height: 20px;
+    width: 20px;
+}
+.pc-img{
+    object-fit: cover;
+
+}
+.pc-img img{
+    height: 200px;
+    width: 200px;
+}
+.hero{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h1 {
+    font-size: 40px;
+}
+.imgaes{
+    height: 90%;
+    width: 100vw;
+}
+.img1{
+    height: 150px;
+    height: 150px;
+}
+footer{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+footer div {
+    gap: 5px;
+    object-fit: cover;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+}
+
+@media only screen and (max-width: 445px) {
+    .setup-div{
+        flex-direction: column;
+    }
+    .hero div{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+}
